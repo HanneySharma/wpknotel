@@ -93,7 +93,7 @@
 	    if ( count( $employeeDetails ) > 0 && is_array($employeeDetails)) {
 	        foreach( $employeeDetails as $employeeDetail ) {
 	            if ( isset( $employeeDetail['title'] ) || isset( $employeeDetail['link'] ) ) {
-                        printf( '<p>Title<input type="text" name="employeeDetails[%1$s][title]" value="%2$s" />  Link : <input type = "text" name="employeeDetails[%1$s][link]" value = "%3$s"><a href="#" class="remove-package">%4$s</a></p>', $c, $employeeDetail['title'], $employeeDetail['link'], 'Remove' );
+                        printf( '<p>Title<input type="text" name="employeeDetails[%1$s][title]" value="%2$s" />  Link : <input type = "text" name="employeeDetails[%1$s][link]" value = "%3$s">Tag Line : <textarea name="employeeDetails[%1$s][description]"  rows="4" cols="50" >%4$s</textarea><a href="#" class="remove-package">%4$s</a></p>', $c, $employeeDetail['title'], $employeeDetail['link'], 'Remove' );
 	                $c = $c +1;
 	            }
 	        }
@@ -109,7 +109,7 @@
 	        $(".add_package").click(function() {
 	            count = count + 1;
 
-	            $('#output-package').append('<p> Title <input type="text" name="employeeDetails['+count+'][title]" value="" />  Link : <input type ="text" name="employeeDetails['+count+'][link]" ><a href="#" class="remove-package"><?php echo "Remove"; ?></a></p>' );
+	            $('#output-package').append('<p> Title <input type="text" name="employeeDetails['+count+'][title]" value="" />  Link : <input type ="text" name="employeeDetails['+count+'][link]" >Tag Line : <textarea name="employeeDetails['+count+'][description]" rows="4" cols="50" ></textarea><a href="#" class="remove-package"><?php echo "Remove"; ?></a></p>' );
 	            return false;
 	        });
 	       $(document.body).on('click','.remove-package',function() {
