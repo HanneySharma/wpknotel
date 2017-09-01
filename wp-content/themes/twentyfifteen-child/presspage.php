@@ -372,6 +372,16 @@ left-radius:2px;border-bottom-left-radius:2px}.ButtonGroup__root___3lEAn>div+div
                                 if (has_post_thumbnail()) {  
                                     $src = get_the_post_thumbnail_url(null,'full');    
                                 }
+                                
+                                
+                                /*$presslinkdetials = get_post_meta($post->ID,'employeeDetails',true);
+                                if(!empty($presslinkdetials)){
+                                    foreach($presslinkdetials as $key => $val){
+                                        echo '<a herf = "'.$val['link'].'">'.$val['title'].' </a>';
+                                    }
+                                }*/
+                                
+                                
                             ?>
                             <li>
                                 <a style=" background-image: url('<?php echo $src; ?>'); height: 500px; " href="javascript:void(0)"></a>
