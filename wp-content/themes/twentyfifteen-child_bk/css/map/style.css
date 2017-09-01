@@ -1,0 +1,532 @@
+
+
+html, body, div, span, applet, object, iframe,
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
+a, abbr, acronym, address, big, cite, code,
+
+del, dfn, em, img, ins, kbd, q, s, samp,
+
+small, strike, strong, sub, sup, tt, var,
+
+b, u, i, center,
+
+dl, dt, dd, ol, ul, li,
+
+fieldset, form, label, legend,
+
+table, caption, tbody, tfoot, thead, tr, th, td,
+
+article, aside, canvas, details, embed,
+
+figure, figcaption, footer, header, hgroup,
+
+menu, nav, output, ruby, section, summary,
+
+time, mark, audio, video {
+
+                margin: 0;
+
+                padding: 0;
+
+                border: 0;
+
+                font-size: 100%;
+
+                font: inherit;
+
+                vertical-align: baseline;
+
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+
+footer, header, hgroup, menu, nav, section {
+
+                display: block;
+
+}
+
+body {     font-family: Roboto,sans-serif; background:#F5F5F5;
+
+}
+
+ol, ul {
+
+                list-style: none;
+
+}
+
+blockquote, q {
+
+                quotes: none;
+
+}
+
+blockquote:before, blockquote:after,
+
+q:before, q:after {
+
+                content: '';
+
+                content: none;
+
+}
+
+ 
+
+*, *:before, *:after {
+
+                box-sizing: border-box;
+
+}
+
+table {
+
+                border-collapse: collapse;
+
+                border-spacing: 0;
+
+}
+
+img {
+
+                display: inline-block;
+
+                border: 0;
+
+                max-width: 100%;
+
+                height: auto;
+
+                vertical-align: middle;
+
+}
+
+ 
+
+ 
+
+/* page style */
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+.map-area {
+
+ 
+
+    box-shadow: 0 2px 41px 3px rgba(121, 138, 177, 0.25);
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    position: relative;
+
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:50%;
+
+    position:relative;
+
+                    height: 100vh;
+
+    min-height:768px;
+
+    width: 100%;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
+ 
+
+#accordion .panel{
+
+    border: none;
+
+    box-shadow: none;
+
+    border-radius: 0;
+
+}
+
+#accordion .panel-heading{
+
+    padding: 0;
+
+    border-radius:0;
+
+    border: none;
+
+}
+
+#accordion .panel-title a {
+    background: #bb9f7d none repeat scroll 0 0;
+    color: #ffffff;
+    display: block;
+    font-size: 60px;
+    overflow: hidden;
+    padding: 2% 5%;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+}
+
+ 
+
+.panel-body h5 {
+
+    color: #333;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+
+}
+
+ 
+
+ 
+
+#accordion .panel-title a.demo-t {
+
+    background: #fff none repeat scroll 0 0;
+
+                 color: #5b92be;
+
+}
+
+ 
+
+ 
+
+#accordion .panel-title a.collapsed {    padding: 20.3%;   font-size: 60px;     background: #5b92be none repeat scroll 0 0; }
+
+ 
+
+ 
+
+ 
+
+#accordion .panel-title a.collapsed .section-count {
+
+    color: #fff;
+
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+#accordion .panel-title a.collapsed:hover{
+
+ 
+
+}
+
+ 
+
+#accordion .panel-title a.collapsed:hover:before{
+
+    background: #d7573e;
+
+}
+
+ 
+
+#accordion .panel-title a.collapsed:after{
+
+    color: #9f9f9f;
+
+}
+
+#accordion .panel-title a.collapsed:hover:after{
+
+    color: #fff;
+
+}
+
+#accordion .panel-body {
+
+    border: 1px solid #d3d3d3;
+
+    box-shadow: 0 5px 6px #c3c3c3;
+
+    color: #5a3245;
+
+    font-size: 14px;
+
+    line-height: 25px;
+
+    padding: 20px 15px 20px 40px;
+
+    position: relative;
+
+    transition: all 0.5s ease 0s;
+
+}
+
+#accordion .panel-body:before{
+
+    content: "";
+
+    width: 5px;
+
+    height: 40px;
+
+    background: #ef6145;
+
+    position: absolute;
+
+    top: 16px;
+
+    left: 0;
+
+}
+
+#accordion .panel-body p{
+
+    margin-bottom: 0;
+
+}
+
+ 
+
+ 
+
+ #accordion {
+    border-top: 1px solid #e0c5a4;
+    margin: 0;
+}
+
+ 
+
+ 
+
+.panel-body h4 {
+    color: #535353;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+ 
+
+.col.span-6 {
+
+    display: block;
+
+    float: left;
+
+    margin-right: 2.04918%;
+
+    width: 48.9754%;
+
+}
+
+ 
+
+.club-tile p {
+
+    font-weight: 500;
+
+}
+
+#accordion .panel-body p {
+
+    color: #606060;
+
+    font-size: 15px;
+
+    margin-bottom: 0;
+
+}
+
+ 
+
+ 
+
+ 
+
+.right-collapse {}
+
+.right-collapse h2 {
+
+    color: #636363;
+
+    font-size: 29px;
+
+    font-weight: bold;
+
+    padding: 20px 0;
+
+}
+
+.right-collapse h2 i {
+
+    color:#EF6145;
+
+}
+
+section.map-area {
+
+ 
+
+}
+
+ 
+
+.table-condensed td {
+
+    border: 1px solid #e3e3e3;
+
+    color: #333;
+
+    padding: 10px;
+
+}
+
+.no-padding {     margin: 0;
+
+    padding: 0; }
+
+ 
+
+ 
+
+.loction {
+
+    background: #5b92be none repeat scroll 0 0;
+
+    color: #fff;
+
+    font-size: 20px;
+
+    left: 10px;
+
+    padding: 15px;
+
+    position: absolute;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    top: 10px;
+
+    z-index: 999;
+
+}
+
+ 
+
+.loction img {
+
+    display: block;
+
+    margin: 0 auto;
+
+    width: 60px;
+
+}
+
+ 
+
+.section-count {
+
+ 
+
+    display: block;
+
+    font-size: 22px;
+
+}
+
+ 
+
+ 
+
+.hr {
+
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+
+    border-top: 1px solid #e3e3e3;
+
+    clear: both;
+
+    width: 100%;
+
+}
+
+ 
+
+ 
+
+.panel-body h5 {
+
+    color: #505050;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+
+}

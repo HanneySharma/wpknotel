@@ -1,0 +1,193 @@
+#mc-embedded-subscribe {
+    cursor: pointer !important;
+}
+        
+.wpgmp_iw_content > p {
+    color: #000;
+}   
+#mc_embed_signup div.mce_inline_error {
+    background: transparent !important;
+    border-radius: 18px !important;
+}
+.rmq-space1{
+    background-color: rgb(90, 146, 191);
+}
+.rmq-space2{
+    background-color: rgb(187, 159, 125);
+}
+.rmq-space3{
+    background-color: rgb(100, 77, 136)
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"]
+{
+    width: 100%;
+    height: 31px; 
+    padding-left: 15px; 
+    font-size: 14px; 
+    border-radius: 22px; 
+    border: medium none; 
+    outline: medium none;
+    
+}
+
+.wpcf7 input[type="submit"]{
+    cursor: pointer !important;
+    border-radius: 22px; 
+    border: medium none; 
+    color: white; 
+    background: rgb(255, 98, 70) none repeat scroll 0% 0%; 
+    font-size: 14px; 
+    padding: 6px; 
+    margin: 30px; 
+    cursor: not-allowed; 
+    outline: medium none; 
+    display: inline-block; 
+    width: 366px; 
+    height: 40px;
+ font-weight: 400;
+}
+
+
+.contafrmcls {
+  margin: auto;
+  max-width: 1200px;
+}
+.contafrmcls .wpcf7-form br {
+  display: none;
+}
+
+
+.wpcf7-form-control-wrap {
+  float: left;
+  padding: 10px 15px;
+  width: 50%;
+}
+
+*::-moz-placeholder {
+  color: rgba(51, 51, 51, 0.5);
+  font-family: "Gotham A","Gotham B";
+}
+
+.calendricalDatePopup {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #999999;
+  padding: 2px;
+  text-align: center;
+  width: 170px;
+  z-index: 9;
+}
+
+
+.submenucls:hover {
+  background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0 !important;
+}
+.rmq-54979c38new {
+  border-bottom-width: 1px !important;
+  border-right-width: 1px !important;
+}
+.rmq-54979c38new:nth-child(2n) {
+  border-right-width: 0px !important;
+}
+
+.rmq-54979c38new:last-child {
+  border-bottom-width: 0px !important;
+}
+
+.getintouch-cls {
+   background: #bb9f7d none repeat scroll 0 0;
+    color: #6d3a29;
+    font-weight: 100;
+    margin: 56px auto;
+    max-width: 400px;
+    padding: 30px;
+}
+
+.getintouch-cls form input, .getintouch-cls form select {
+  background-color: #ffffff;
+  border: medium none !important;
+  border-radius: 0 !important;
+  cursor: pointer;
+  font-size: 14px !important;
+  height: 48px !important;
+  margin-bottom: 3px;
+  outline: medium none !important;
+  padding: 12px !important;
+  width: 100% !important;
+}
+
+.getintouch-cls .wpcf7-form-control-wrap {
+  float: left;
+  padding: 0px;
+  width: 100%;
+}
+
+.getintouch-cls .wpcf7 input[type="submit"] {
+  background: #6d3a29 none repeat scroll 0 0;
+  border: medium none;
+  color: #ffffff;
+  cursor: not-allowed;
+  font-size: 14px;
+  height: 48px;
+  outline: medium none;
+  padding: 12px;
+  margin: 0px;
+  width: 100%;
+}
+
+
+
+.eventmail-cls {
+   background: #bb9f7d none repeat scroll 0 0;
+    color: #FFFFFF;
+    font-weight: 100;
+    margin: 56px auto;
+    max-width: 400px;
+    padding: 30px;
+}
+
+.eventmail-cls form input, .eventmail-cls form select {
+  background-color: #ffffff;
+  border: medium none !important;
+  border-radius: 0 !important;
+  cursor: pointer;
+  font-size: 14px !important;
+  height: 48px !important;
+  margin-bottom: 3px;
+  outline: medium none !important;
+  padding: 12px !important;
+  width: 100% !important;
+}
+
+.eventmail-cls .wpcf7-form-control-wrap {
+  float: left;
+  padding: 0px;
+  width: 100%;
+}
+
+.eventmail-cls .wpcf7 input[type="submit"] {
+  background: #B19E86 none repeat scroll 0 0;
+  border: medium none;
+  color: #ffffff;
+  cursor: not-allowed;
+  font-size: 14px;
+  height: 48px;
+  outline: medium none;
+  padding: 12px;
+  margin: 0px;
+  width: 100%;
+}
+
+.upcoming-event-cls{
+    background: rgb(187, 159, 125) none repeat scroll 0 0;
+    color: rgb(255, 255, 255);
+    display: inline;
+    float: left;
+    height: 122px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    padding: 22px;
+    width: 100px;
+}
+
