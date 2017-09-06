@@ -11,6 +11,7 @@ if ( defined('WP_USE_THEMES') && WP_USE_THEMES )
 	 */
 	do_action( 'template_redirect' );
 
+
 /**
  * Filters whether to allow 'HEAD' requests to generate content.
  *

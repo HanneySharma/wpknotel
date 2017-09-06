@@ -11,3 +11,185 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
+
+.kbtn {
+}
+.kbtn:hover {
+    background: #5A92BF;
+    color: #fff;
+}
+.wpcf7 input[type="submit"]:hover   {   background: #5A92BF;  }
+
+.read-btn {
+    background: #ff6246 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Gotham A","Gotham B";
+    font-size: 20px;
+    font-weight: normal;
+    margin: 30px auto;
+    max-width: 200px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+.head-box {
+    display: flex;
+    width: 100%;
+}
+
+.mobile-box { display:none;}
+.public-DraftEditor-content12 {
+    padding: 9px;
+}
+
+.event-img p {
+    margin: 0;
+    padding: 0;
+}
+
+.rmq-1a8e12bb {
+    text-align: left !important;
+}
+
+
+/* ----------- */
+@media only screen and (max-width : 767px) {
+.mobile-box { display: flex;  width: 100%; }
+.head-box { display:none; }
+.btm-link { display:none; }
+.wtn-book {  display: none !important; }
+.wpcf7-form-control-wrap { width:100%;}
+.rmq-1a8e12bbne { display: block !important;}
+.rmq-e8346481 { background:#92ceff !important; }
+.rmq-1a8e12bbne { color: white;  font-size: 17px; text-align: left; }
+.brokers ul {
+    margin: 14px 0;
+    padding-left: 0;
+}
+
+
+.location-lists .gtm-black {
+    display:block !important;
+    width:100% !important;
+}
+
+
+
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px) { 
+
+
+input#mc-embedded-subscribe {
+    margin: 30px 0 !important;
+    width: 90% !important;
+}
+
+.wpcf7-form-control.wpcf7-submit  {
+	    margin: 30px 10px !important;
+    width: 90% !important;
+	
+}
+
+.rmq-1f051394.rmq-24494ed1 { height:26vh !important;}
+
+.gtm-black { line-height: 30px !important;  font-size: 25px !important; }
+
+.brokers ul {
+    margin: 14px 0;
+    padding-left: 0 !important;
+}
+}
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+.tabv {
+    float: left !important;
+    width: 50% !important;
+}
+.tabv .rmq-fe6607cb.js-tst-event {
+    width: 100% !important;
+}
+.event-list.js-tst-coming-events {
+    margin-bottom: 40px !important;
+}
+.rmq-fe6607cb.js-tst-event {
+    margin-bottom: 40px !important;
+}
+
+}
+
+
+
+
+*::-moz-placeholder {
+    color: #202020 !important;
+}
+
+
+.gtm-thinn {
+    border-bottom: 1px solid #e3e3e3;
+    color: #636363;
+    font-size: 22px;
+    font-weight: bold !important;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+
+.location-lists {}
+
+
+.location-lists .gtm-black {
+    display: inline-block;
+    font-size: 24px !important;
+    line-height: 44px;
+    width: 48%;
+}
+
+
+
+.mmp .sy-box {
+    margin-left: -15px;
+    margin-right: -15px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* (1280x720) Galaxy Note 2, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+  .rmq-1f051394 + div div {
+    margin-top: 0 !important;
+}
+}
+
+
+
+
+
+.info1 {
+    text-decoration:none !important;
+}
+

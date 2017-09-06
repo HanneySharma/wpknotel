@@ -414,6 +414,8 @@ require get_template_directory() . '/inc/customizer.php';
         $cat_names  = wp_list_pluck( $categories, 'name' );
         if ( has_category('map-location')) {
             $single_template = dirname( __FILE__ ) . '/map-location.php';
+        }elseif(has_category(14)){
+            $single_template = dirname( __FILE__ ) . '/custom-blog.php';
         }else{
             $single_template = dirname( __FILE__ ) . '/single.php';
         }

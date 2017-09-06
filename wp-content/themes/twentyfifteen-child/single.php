@@ -15,11 +15,12 @@ get_header(); ?>
 		<?php
 		// Start the loop.
 		while ( have_posts() ) : the_post();
+                    die('welcome');
 			/*
-			 * Include the post format-specific template for the content. If you want to
-			 * use this in a child theme, then include a file called called content-___.php
-			 * (where ___ is the post format) and that will be used instead.
-			 */
+                        * Include the post format-specific template for the content. If you want to
+                        * use this in a child theme, then include a file called called content-___.php
+                        * (where ___ is the post format) and that will be used instead.
+                        */
 			get_template_part( 'content', get_post_format() );
 
 			// If comments are open or we have at least one comment, load up the comment template.

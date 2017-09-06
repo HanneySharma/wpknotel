@@ -17,7 +17,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 <script async="" src="<?php echo get_stylesheet_directory_uri(); ?>/js/slippry.min.js"></script>
 <script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Knotel","legalName":"Knotel Inc","email":"hellohello@knotel.com","telephone":"+1-646-979-0898","url":"https://knotel.com","image":"http://d1g17mzu1m6f7h.cloudfront.net/static-assets/b3d1ef348353_background-6.jpg","description":"The next level in company-sized workspace for companies up to 200 people.","address":{"@type":"PostalAddress","addressCountry":"United States","addressRegion":"NY","addressLocality":"New York","postalCode":"10011","streetAddress":"33 West 17th Street, Floor 5"},"founder":[{"@type":"Person","name":"Amol Sarva"},{"@type":"Person","name":"Edward Shenderovich"}],"serviceArea":{"@type":"AdministrativeArea","name":"New York City"},"department":[{"@type":"Organization","name":"Bedford","address":{"@type":"PostalAddress","addressCountry":"USA","addressRegion":"NY","addressLocality":"Brooklyn","postalCode":11211,"streetAddress":"209 N 8th ST"}},{"@type":"Organization","name":"Battery","address":{"@type":"PostalAddress","addressCountry":"USA","addressRegion":"NY","addressLocality":"New York","postalCode":10004,"streetAddress":"1 State St"}},{"@type":"Organization","name":"Bryant","address":{"@type":"PostalAddress","addressCountry":"USA","addressRegion":"NY","addressLocality":"New York","postalCode":10018,"streetAddress":"22 W 38th St"}},{"@type":"Organization","name":"Dumbo","address":{"@type":"PostalAddress","addressCountry":"USA","addressRegion":"NY","addressLocality":"Brooklyn","postalCode":11201,"streetAddress":"68 Jay St"}},{"@type":"Organization","name":"Union Sq 1","address":{"@type":"PostalAddress","addressCountry":"USA","addressRegion":"NY","addressLocality":"New York","postalCode":10011,"streetAddress":"33 W 17th St"}},{"@type":"Organization","name":"Houston","address":{"@type":"PostalAddress","addressCountry":"USA","addressRegion":"NY","addressLocality":"New York","postalCode":10012,"streetAddress":"116 W Houston St"}},{"@type":"Organization","name":"Cooper Square","address":{"@type":"PostalAddress","addressCountry":"USA","addressRegion":"NY","addressLocality":"New York","postalCode":10003,"streetAddress":"30 Cooper Sq"}},{"@type":"Organization","name":"Union Sq 2","address":{"@type":"PostalAddress","addressCountry":"USA","addressRegion":"NY","addressLocality":"New York","postalCode":10011,"streetAddress":"50 W 17th St"}},{"@type":"Organization","name":"Gowanus","address":{"@type":"PostalAddress","addressCountry":"USA","addressRegion":"NY","addressLocality":"Brooklyn","postalCode":11215,"streetAddress":"473 President ST"}},{"@type":"Organization","name":"Hudson Yards","address":{"@type":"PostalAddress","addressCountry":"USA","addressRegion":"NY","addressLocality":"New York","postalCode":10036,"streetAddress":"10th Avenue"}},{"@type":"Organization","name":"Garment","address":{"@type":"PostalAddress","addressCountry":"USA","addressRegion":"NY","addressLocality":"New York","postalCode":10018,"streetAddress":"37th Street"}},{"@type":"Organization","name":"Flatiron","address":{"@type":"PostalAddress","addressCountry":"USA","addressRegion":"NY","addressLocality":"New York","postalCode":10010,"streetAddress":"28 W 23rd St"}},{"@type":"Organization","name":"Madison","address":{"@type":"PostalAddress","addressCountry":"USA","addressRegion":"NY","addressLocality":"New York","postalCode":10010,"streetAddress":"25 West 26th St"}},{"@type":"Organization","name":"Soho","address":{"@type":"PostalAddress","addressCountry":"United States","addressRegion":"NY","addressLocality":"New York","postalCode":10013,"streetAddress":"Soho"}},{"@type":"Organization","name":"Herald Square","address":{"@type":"PostalAddress","addressCountry":"United States","addressRegion":"NY","addressLocality":"New York","postalCode":10001,"streetAddress":"875 6th Ave"}},{"@type":"Organization","name":"SoHo West","address":{"@type":"PostalAddress","addressCountry":"United States","addressRegion":"NY","addressLocality":"New York","postalCode":10013,"streetAddress":"137 Varick ST"}},{"@type":"Organization","name":"Park Ave South","address":{"@type":"PostalAddress","addressCountry":"USA","addressRegion":"NY","addressLocality":"New York","postalCode":10016,"streetAddress":"475 Park Ave S"}},{"@type":"Organization","name":"TBD","address":{"@type":"PostalAddress","addressCountry":"United States","addressRegion":"New York","addressLocality":"New York","postalCode":1234,"streetAddress":"Address TBD"}},{"@type":"Organization","name":"Grand Central","address":{"@type":"PostalAddress","addressCountry":"United States","addressRegion":"NY","addressLocality":"New York","postalCode":10017,"streetAddress":"Madison Ave & 47th ST"}},{"@type":"Organization","name":"Times Square","address":{"@type":"PostalAddress","addressCountry":"U.S.","addressRegion":"NY","addressLocality":"New York","postalCode":10036,"streetAddress":"Times Square"}},{"@type":"Organization","name":"Plaza","address":{"@type":"PostalAddress","addressCountry":"U.S.","addressRegion":"NY","addressLocality":"New York","postalCode":10065,"streetAddress":"Plaza District"}},{"@type":"Organization","name":"Qlabs","address":{"@type":"PostalAddress","addressCountry":"United States","addressRegion":"NY","addressLocality":"New York","postalCode":33,"streetAddress":"16 W 22nd St"}},{"@type":"Organization","name":"Meatpacking","address":{"@type":"PostalAddress","addressCountry":"U.S.","addressRegion":"NY","addressLocality":"New York","postalCode":10002,"streetAddress":"Meatpacking"}},{"@type":"Organization","name":"Lower East Side","address":{"@type":"PostalAddress","addressCountry":"U.S.","addressRegion":"NY","addressLocality":"New York","postalCode":10002,"streetAddress":"Lower East Side"}},{"@type":"Organization","name":"Empire State","address":{"@type":"PostalAddress","addressCountry":"U.S.","addressRegion":"NY","addressLocality":"New York","postalCode":10016,"streetAddress":"34th Street"}},{"@type":"Organization","name":"FiDi","address":{"@type":"PostalAddress","addressCountry":"U.S.","addressRegion":"NY","addressLocality":"New York","postalCode":10005,"streetAddress":"Financial District"}},{"@type":"Organization","name":"Chelsea","address":{"@type":"PostalAddress","addressCountry":"U.S.","addressRegion":"NY","addressLocality":"New York","postalCode":10001,"streetAddress":"W 26th ST"}}],"events":[{"@type":"Event","name":"Knotel Private Founders Series","startDate":"2017-09-14T22:09","endDate":"2017-09-15T00:09","url":"https://knotel.com/events/knotelprivatefounders","eventStatus":"https://knotel.com/events/knotelprivatefounders","image":"https://d1g17mzu1m6f7h.cloudfront.net/events/0fd7beb2f110_Parrot Memento Knotel.png","location":{"@type":"Place","address":"Varies by series installment","name":"Knotel Union Sq 1"}}]}</script>
 
-  <link rel="stylesheet" type="text/css" class="__meteor-css__" href="<?php echo get_stylesheet_directory_uri(); ?>/7d3a13dd59a6822481b90a5caf6f065423a815c5.css">
+<link rel="stylesheet" type="text/css" class="__meteor-css__" href="<?php echo get_stylesheet_directory_uri(); ?>/7d3a13dd59a6822481b90a5caf6f065423a815c5.css">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -352,7 +352,7 @@ left-radius:2px;border-bottom-left-radius:2px}.ButtonGroup__root___3lEAn>div+div
  
 <div id="render-target" style="width:100%; height:100%;">
     <div data-reactroot="" data-radium="true"><div>
-            <div class="container-fluid">
+            <div class="container-fluid mmp">
                 <div style="position: absolute; z-index: 1000;">
                     <a href="<?php echo get_home_url(); ?>"><div data-radium="true" style="display: inline-block; width: 120px; height: 120px; border-radius: 50%; position: relative; text-align: center; overflow: hidden; margin: 12px 0px; background-color: rgb(187, 159, 125);"><div data-radium="true" style="width: 50%; display: inline-block; margin-top: 50%; transform: translateY(-50%);"><svg width="100%" height="100%" viewBox="-13 0 285 285" preserveAspectRatio="xMidYMid meet" version="1.1" data-radium="true"><g id="Land-+-Overview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" data-radium="true"><g id="Land-+-Overview---Desktop-HD" transform="translate(-591.000000, -246.000000)" fill="#FEFEFE" data-radium="true"><g id="Section-1---Land" data-radium="true"><g id="Logo-Lockup" transform="translate(460.000000, 120.000000)" data-radium="true"><g id="Wordmark" transform="translate(131.000000, 365.000000)" data-radium="true"><path d="M242,42.0555556 L259,26 L259,43 L241,43 L229,42.9995428 L229,2 L242,2 L242,42.0555556 Z" id="L"></path><polygon id="E" points="220 12 220 2 188 2 188 43 220.089271 43 220 33 199 33 199 27 214 27 214 18 199 18 199 12"></polygon><polygon id="T" points="180 2 144 2 144 12.5 156 12.5 156 43 168 43 168 12.5 180 12.5"></polygon><path d="M118.5,12 C112.710454,12 108,16.7104539 108,22.5 C108,28.2895461 112.710454,33 118.5,33 C124.289546,33 129,28.2895461 129,22.5 C129,16.7104539 124.289546,12 118.5,12 M96,22.5 C96,10.0932203 106.09322,0 118.5,0 C130.90678,0 141,10.0932203 141,22.5 C141,34.9067797 130.90678,45 118.5,45 C106.09322,45 96,34.9067797 96,22.5 Z" id="O"></path><polygon id="N" points="48 2 58.8706076 2 76.8471964 25 76.8471964 2 88 2 88 43 77.8419273 43 59.0684381 19.2446156 59.0684381 43 48 43"></polygon><polygon id="K" points="42 2 27 2 11.5 18.5 11.5 2 0 2 0 45.5 16 28.5 27 43 42 43 24.5 20.5"></polygon></g><polyline id="Flag" points="334 126 260 322 186 126"></polyline></g></g></g></g></svg></div></div></a></div>
                 <!--1<div class="slick-initialized slick-slider row">-->
@@ -394,8 +394,8 @@ left-radius:2px;border-bottom-left-radius:2px}.ButtonGroup__root___3lEAn>div+div
                         <!--3</div>-->
                     <!--2</div>-->
                     <!--1</div>-->
-                <div>
-                    <br>
+                <div class="container">
+                 
                     <div class="row text-center">
                         <?php
                         // Start the loop.
@@ -403,29 +403,31 @@ left-radius:2px;border-bottom-left-radius:2px}.ButtonGroup__root___3lEAn>div+div
                        
                           
                         ?>
-                        <div class="col-md-7">
-                        <div class="" style="display: inline-block; float: none; text-align: left; width: 65%;">
+                        <div class="col-xs-12 col-md-12 col-lg-12" style="display: inline-block; float: none; text-align: left;">
+                        <div class="" style="display:block; float: none; text-align: left;">
                             <p class="gtm-black" style="color: rgb(187, 159, 125); font-size: 37px; text-transform: uppercase; margin-bottom: 0px;"><?php the_title(); ?></p>
                                 <p class="gtm-medium" style="color: rgb(187, 159, 125); font-size: 14px; text-transform: uppercase; margin: 0px 0px 2em;"><?php echo $post_slug = str_replace('-', ' ', get_post_field( 'post_name', get_post() ));
                                  ?></p>
                                 <div style="font-family: 'Gotham A','Gotham B';font-style: normal;font-weight: 100;">
                                     <?php the_content(); ?>
                                     </div>
-                                        
-                                        
-                                
-                        
-                        
-                          <div class="text-center" style="display: inline-block; float: none; text-align: center;"><div class="gtm-light" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.870588); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px; border-radius: 2px; display: inline-block; min-width: 88px; background-color: rgb(255, 255, 255);"><a href="http://try.knotel.com/knotel-benefits/" tabindex="0" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-weight: inherit; display: inline-block; font-family: Roboto, sans-serif; border: 10px; cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: inherit; box-sizing: border-box; transform: translate(0px, 0px); vertical-align: middle; position: relative; height: 36px; line-height: 36px; width: 100%; border-radius: 2px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; text-align: center; background-color: rgb(255, 98, 70);"><div><div style="height: 36px; border-radius: 2px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; top: 0px;"><span style="-webkit-user-select: none; position: relative; font-size: 14px; letter-spacing: 0px; text-transform: uppercase; opacity: 1; margin: 0px; padding-left: 16px; padding-right: 16px; color: white; font-weight: 500;">Book a tour</span></div></div></a></div></div>
-                        
-                        
-            
-                        
-                        
-                        </div></div>
-                        <div class =" col-md-5">
-                        <div class ="" style="display: inline-block; vertical-align: top; float: none; font-weight: 100;  margin-bottom: 15px; margin-top: 30px; text-align: left;">
-                            <p class="gtm-thin">Other Locations</p>
+                        </div>
+						
+						  <div class="gtm-light" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.870588); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px; border-radius: 2px; display: inline-block; min-width: 88px; background-color: rgb(255, 255, 255);"><a href="http://try.knotel.com/knotel-benefits/" tabindex="0" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-weight: inherit; display: inline-block; font-family: Roboto, sans-serif; border: 10px; cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: inherit; box-sizing: border-box; transform: translate(0px, 0px); vertical-align: middle; position: relative; height: 36px; line-height: 36px; width: 100%; border-radius: 2px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; text-align: center; background-color: rgb(255, 98, 70);"><div><div style="height: 36px; border-radius: 2px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; top: 0px;"><span style="-webkit-user-select: none; position: relative; font-size: 14px; letter-spacing: 0px; text-transform: uppercase; opacity: 1; margin: 0px; padding-left: 16px; padding-right: 16px; color: white; font-weight: 500;">Book a tour</span></div></div></a></div>
+						
+						
+						</div>
+						
+
+						  <div class="col-xs-12 col-md-12 col-lg-12">  
+						  
+					
+						
+						
+						
+                        <div class ="" style="vertical-align: top; float: none; font-weight: 100; margin-bottom: 122px; text-align: left;">
+                        <div class ="location-lists" style="vertical-align: top; float: none; font-weight: 100;  margin-bottom: 15px; margin-top: 30px; text-align: left;">
+                            <p class="gtm-thin gtm-thinn">Other Locations <i class="fa fa-map-marker" aria-hidden="true"></i></p>
                              <?php
                                 $retrieve_data = $wpdb->get_results( "SELECT * FROM wp_markers" );
                                 if(!empty($retrieve_data)){ 
@@ -445,7 +447,7 @@ left-radius:2px;border-bottom-left-radius:2px}.ButtonGroup__root___3lEAn>div+div
                                 } 
                             ?>
                            
-                        </div></div>
+                        </div></div>  </div>
                         <?php
                         // End the loop.
                         endwhile;

@@ -2,6 +2,7 @@
 	/**
 	 * Template Name: Events Detail
 	*/
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -417,7 +418,8 @@
 				//$url = rtrim($_SERVER['REQUEST_URI'],'/');
 				$url = explode("/", $url);
 				//**************START Code for read upcoming events.***********//
-				$url = "https://knotel.com/publications/eventByUrlName/".end($url);
+				$url = "https://app.knotel.com/publications/eventByUrlName/".end($url);
+                                
 				$ch = curl_init();
 				curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 				curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -426,8 +428,10 @@
 				curl_close($ch);
 				$response = json_decode($result, true);
 				$i = 0;
+                                $check_property = '';
 				foreach($response as $key => $events){
 				    foreach($events as $event){
+                                        $check_property = $event['otherProperty'];
 				        $starttime = $event['startDate'];
 				        $starttime = date("H:i",strtotime($starttime));
 				        $endtime = $event['endDate'];
@@ -441,26 +445,28 @@
 				        $eventdate = date("Y-m-d",strtotime($event['startDate']));  
 
                                         $property_id = $event['propertyId'];
-                                        $url_location = "https://knotel.com/publications/roomsAndPropertiesForEvents/";
+                                        $url_location = "https://app.knotel.com/publications/roomsAndPropertiesForEvents/";
                                         $ch = curl_init();
-                                        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-                                        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-                                        curl_setopt($ch, CURLOPT_URL,$url_location);
-                                        $result = curl_exec($ch);
-                                        curl_close($ch);
-                                        $properties = json_decode($result, true);
-                                        $first_names = array_column($properties['properties'], '_id');
-                                        $property_idKey = array_search($property_id, $first_names);
-                                        $urlNamer = '';
-                                        if($property_idKey){
-                                            $urlNamer = $properties['properties'][$property_idKey]['urlName'];	
-                                        } 
-
+                                                 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                                                 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                                                 curl_setopt($ch, CURLOPT_URL,$url_location);
+                                                 $result = curl_exec($ch);
+                                                 curl_close($ch);
+                                                 $properties = json_decode($result, true);
+                                                 $first_names = array_column($properties['properties'], '_id');
+                                                 $property_idKey = array_search($property_id, $first_names);
+                                                 $urlNamer = '';
+                                                 if($property_idKey){
+                                                         $urlNamer = $properties['properties'][$property_idKey]['urlName'];	
+                                                 } 
+                        $topPropertyId = $event['_id'];
+				                                                  
 				?>    
 			<div data-radium="true" data-reactroot="">
 				<div>
 				<input type="hidden" name="eventID" value="<?php echo $event['_id'] ?>" id="eventId">
 					<div class="container-fluid">
+
 						<div style="min-height: 500px; background-image: url(&quot;<?php if(isset($event['imageCdnUrl']) && !empty($event['imageCdnUrl'])){ echo $event['imageCdnUrl'];  } elseif(isset($event['imageUrl']) && !empty($event['imageUrl'])){ echo $event['imageUrl']; }else { echo  get_stylesheet_directory_uri()."/images/coming-soon.jpg";  }  ?>&quot;); background-size: cover; background-position: center center;" class="row">
 							<div class="col-xs-12">
 								<a href="<?php echo get_site_url(); ?>">
@@ -495,9 +501,19 @@
 								<p style="color: rgb(187, 159, 125); font-size: 48px; text-transform: uppercase; margin-bottom: 0px; padding: 9px;" class="gtm-black"><?php echo $event['title']; ?></p>
 								<p style="color: rgb(187, 159, 125); font-size: 14px; text-transform: uppercase; margin:0px; padding: 9px;" class="gtm-medium">
 									<!-- react-text: 26 --><?php echo $starttime; ?><!-- /react-text --><!-- react-text: 27 -->,&nbsp;<!-- /react-text --><!-- react-text: 28 --><?php echo $month; ?> <?php echo $day;  ?>th<!-- /react-text --><!-- react-text: 29 -->&nbsp;at&nbsp;<!-- /react-text -->
-								<a  style="text-decoration: underline;" href="<?php echo get_home_url(); ?>/<?php echo preg_replace('/\s+/', '-', strtolower($urlNamer)); ?>" >
-										<!-- react-text: 124 -->Knotel  <?php echo $urlNamer; ?></a><!-- /react-text --><!-- react-text: 125 --><!-- /react-text -->
-										<!-- react-text: 31 --><!-- /react-text --><!-- react-text: 32 -->&nbsp;<!-- /react-text -->
+                                                                <?php if($check_property == 'Private Space'){ ?>        
+								Knotel Private Space <a  style="text-decoration: underline;" href="<?php echo get_home_url(); ?>/<?php echo preg_replace('/\s+/', '-', strtolower($urlNamer)); ?>" >
+										  <?php echo $urlNamer; ?></a>
+                                                                <?php
+                                                                }else{
+                                                                ?>
+                                                                 <a  style="text-decoration: underline;" href="<?php echo get_home_url(); ?>/<?php echo preg_replace('/\s+/', '-', strtolower($urlNamer)); ?>" >
+										Knotel  <?php echo $urlNamer; ?></a>       
+                                                                        
+                                                                <?php        
+                                                                }
+                                                                ?>        
+										
 									<?php if(!empty($event['addressLine']) && strtolower($event['addressLine']) != 'knotel'){ ?>						
 									,<a style="text-decoration: underline;" href="https://maps.google.com/?q=<?php echo $event['addressLine']; ?>"><?php if(isset($event['addressLine']) && !empty($event['addressLine'])) { echo $event['addressLine']; } ?></a>
 									<?php } ?>
@@ -537,6 +553,7 @@
                                                                 <div>
                                 <?php
                                 if(strtotime($event['startDate']) > time()){
+                                    if($check_property != 'Private Space'){
                                 	 ?>
                                 
 								<div data-radium="true" id="rsvpForm">
@@ -597,7 +614,7 @@
 										</div>
 									</div>
 								</div>
-								<?php } ?>
+                                <?php }} ?>
 
                                                         </div>
 								<br>
@@ -605,7 +622,7 @@
 								<p class="gtm-thin">UPCOMING EVENTS</p>
 								<?php
 									//**************START Code for read upcoming events.***********//
-									$url = "https://knotel.com/publications/upcoming10Events";
+									$url = "https://app.knotel.com/publications/upcoming10Events";
 									$ch = curl_init();
 									curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 									curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -627,6 +644,9 @@
 									        $todaydate = date("Y-m-d");
 									        $eventdate = date("Y-m-d",strtotime($event['startDate']));									        
 									      
+									      if($topPropertyId == $event['_id']){
+									      	continue;
+									      }
 										?>
 								<div style="padding-top: 22px;">
 									<div style="width: 500px; margin: 22px 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; cursor: pointer; border-radius: 2px; overflow: hidden; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24); transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0s; border: 1px solid rgb(187, 159, 125);" data-radium="true" class="rmq-fe6607cb">

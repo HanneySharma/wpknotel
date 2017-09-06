@@ -1,13 +1,15 @@
 <?php
-	/**
-	 * Template Name: Press Page
-	*/
+    /**
+    * Template Name: Knotel Blogs
+    */
+
 ?>
 <!DOCTYPE html>
 <!-- saved from url=(0036)https://knotel.com/locations/bedford -->
 <html>
 <head>
-<?php wp_head();  ?>
+<?php wp_head();
+?>
         <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -366,114 +368,94 @@ left-radius:2px;border-bottom-left-radius:2px}.ButtonGroup__root___3lEAn>div+div
     <div data-reactroot="" data-radium="true"><div>
             <div class="container-fluid mmp">
                 <div style="position: absolute; z-index: 1000;">
-                    <a href="<?php echo get_home_url(); ?>"><div  class="logoTop"  data-radium="true" style="display: inline-block; width: 120px; height: 120px; border-radius: 50%; position: relative; text-align: center; overflow: hidden; margin: 12px 0px; background-color: rgb(187, 159, 125);"><div data-radium="true" style="width: 50%; display: inline-block; margin-top: 50%; transform: translateY(-50%);"><svg width="100%" height="100%" viewBox="-13 0 285 285" preserveAspectRatio="xMidYMid meet" version="1.1" data-radium="true"><g id="Land-+-Overview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" data-radium="true"><g id="Land-+-Overview---Desktop-HD" transform="translate(-591.000000, -246.000000)" fill="#FEFEFE" data-radium="true"><g id="Section-1---Land" data-radium="true"><g id="Logo-Lockup" transform="translate(460.000000, 120.000000)" data-radium="true"><g id="Wordmark" transform="translate(131.000000, 365.000000)" data-radium="true"><path d="M242,42.0555556 L259,26 L259,43 L241,43 L229,42.9995428 L229,2 L242,2 L242,42.0555556 Z" id="L"></path><polygon id="E" points="220 12 220 2 188 2 188 43 220.089271 43 220 33 199 33 199 27 214 27 214 18 199 18 199 12"></polygon><polygon id="T" points="180 2 144 2 144 12.5 156 12.5 156 43 168 43 168 12.5 180 12.5"></polygon><path d="M118.5,12 C112.710454,12 108,16.7104539 108,22.5 C108,28.2895461 112.710454,33 118.5,33 C124.289546,33 129,28.2895461 129,22.5 C129,16.7104539 124.289546,12 118.5,12 M96,22.5 C96,10.0932203 106.09322,0 118.5,0 C130.90678,0 141,10.0932203 141,22.5 C141,34.9067797 130.90678,45 118.5,45 C106.09322,45 96,34.9067797 96,22.5 Z" id="O"></path><polygon id="N" points="48 2 58.8706076 2 76.8471964 25 76.8471964 2 88 2 88 43 77.8419273 43 59.0684381 19.2446156 59.0684381 43 48 43"></polygon><polygon id="K" points="42 2 27 2 11.5 18.5 11.5 2 0 2 0 45.5 16 28.5 27 43 42 43 24.5 20.5"></polygon></g><polyline id="Flag" points="334 126 260 322 186 126"></polyline></g></g></g></g></svg></div></div></a></div>
-                <!--1<div class="slick-initialized slick-slider row">-->
-                    <!--<div class="slick-list">-->
-                        <!--<div class="slick-track" style="opacity: 1; transform: translate3d(-1840px, 0px, 0px); width: 7360px;">-->
+                    <a href="<?php echo get_home_url(); ?>"><div class="logoTop"  data-radium="true" style="display: inline-block; width: 120px; height: 120px; border-radius: 50%; position: relative; text-align: center; overflow: hidden; margin: 12px 0px; background-color: rgb(187, 159, 125);"><div data-radium="true" style="width: 50%; display: inline-block; margin-top: 50%; transform: translateY(-50%);"><svg width="100%" height="100%" viewBox="-13 0 285 285" preserveAspectRatio="xMidYMid meet" version="1.1" data-radium="true"><g id="Land-+-Overview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" data-radium="true"><g id="Land-+-Overview---Desktop-HD" transform="translate(-591.000000, -246.000000)" fill="#FEFEFE" data-radium="true"><g id="Section-1---Land" data-radium="true"><g id="Logo-Lockup" transform="translate(460.000000, 120.000000)" data-radium="true"><g id="Wordmark" transform="translate(131.000000, 365.000000)" data-radium="true"><path d="M242,42.0555556 L259,26 L259,43 L241,43 L229,42.9995428 L229,2 L242,2 L242,42.0555556 Z" id="L"></path><polygon id="E" points="220 12 220 2 188 2 188 43 220.089271 43 220 33 199 33 199 27 214 27 214 18 199 18 199 12"></polygon><polygon id="T" points="180 2 144 2 144 12.5 156 12.5 156 43 168 43 168 12.5 180 12.5"></polygon><path d="M118.5,12 C112.710454,12 108,16.7104539 108,22.5 C108,28.2895461 112.710454,33 118.5,33 C124.289546,33 129,28.2895461 129,22.5 C129,16.7104539 124.289546,12 118.5,12 M96,22.5 C96,10.0932203 106.09322,0 118.5,0 C130.90678,0 141,10.0932203 141,22.5 C141,34.9067797 130.90678,45 118.5,45 C106.09322,45 96,34.9067797 96,22.5 Z" id="O"></path><polygon id="N" points="48 2 58.8706076 2 76.8471964 25 76.8471964 2 88 2 88 43 77.8419273 43 59.0684381 19.2446156 59.0684381 43 48 43"></polygon><polygon id="K" points="42 2 27 2 11.5 18.5 11.5 2 0 2 0 45.5 16 28.5 27 43 42 43 24.5 20.5"></polygon></g><polyline id="Flag" points="334 126 260 322 186 126"></polyline></g></g></g></g></svg></div></div></a></div>
                         <ul id="slippry-demo">   
                             <?php
                             // Start the loop.
-                            $args = array('posts_per_page' => 1,'category_name' => 'press','order' =>'ASC');
-                            query_posts($args);
                             while ( have_posts() ) : the_post(); 
                                 if (has_post_thumbnail()) {  
                                     $src = get_the_post_thumbnail_url(null,'full');    
-                                }
-                                
-                                
-                                /*$presslinkdetials = get_post_meta($post->ID,'employeeDetails',true);
-                                if(!empty($presslinkdetials)){
-                                    foreach($presslinkdetials as $key => $val){
-                                        echo '<a herf = "'.$val['link'].'">'.$val['title'].' </a>';
-                                    }
-                                }*/
-                                
-                                
+                                }  
                             ?>
-                            
-                            
-                            
-                            
-                            
-                          
                             <li>
                                 <a style=" background-image: url('<?php echo $src; ?>'); height: 300px; " href="javascript:void(0)"></a>
                             </li>  
                         </ul>      
-                        <!--3</div>-->
-                    <!--2</div>-->
-                    <!--1</div>-->
-                    
-                    
-<section class="press-area">
 
-<!-- <section class="section bg-light">
+                        <?php            
+                            endwhile;
+                            wp_reset_query(); 
+                        ?>
+
+                    
+     <section class="press-area">
+
+<!--<section class="section bg-light">
 <div class="container">
-<h2 class="section-title text-left">A few <i>Words</i> &mdash;<span class="fade-title">Knotel</span></h2>
+<h2 class="section-title text-left">Useful <i>articles.</i> &mdash;<span class="fade-title">Knotel</span></h2>
 <div class="row-space row">
 <div class="press-text col-md-8 col-md-offset-3 col-space">
-<p class="last"><?php the_content(); ?>
-
+<p class="last"><?php //the_content(); ?>
 </p>
 </div>
 
 </div>
 </div>
-</section> -->
+</section>-->
 
 
 
 
-<div class="container-fluid">
 
+<div class="container">
 <main id="main" class="site-main" role="main">
-<h2 class="blog_main_title"><?php the_title(); ?></h2>
+<h2 class="blog_main_title"><?php the_title(); ?></h2>    
 
-<div class="grid-layout">
+
+<div class="grid-layout blog-page">
 <div class="row">
 
+    <?php
+        // Start the loop.
+    $i = 0;
+        $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+        $args = array('posts_per_page' => 10,'category_name' => 'blog','order' =>'ASC','paged' => $paged);
+        query_posts($args);
+        while ( have_posts() ) : the_post(); 
+            $authorname = get_the_author();
+            $postdate =  get_the_date('d M Y');
+            $shortcontent = str_replace("<p>","",get_the_excerpt());
+            $shortcontent = str_replace('</p>','<br>',$shortcontent);
+            $id = get_the_ID();
+            $link = get_permalink($id);
+            
+            if (has_post_thumbnail()) {  
+                $img = get_the_post_thumbnail_url(null,'full');    
+            }  
 
-
-
-
-                        <?php 
-                            $presslinkdetials = get_post_meta($post->ID,'employeeDetails',true);
-                            if(!empty($presslinkdetials)){
-                                foreach($presslinkdetials as $key => $val){
-                                    //print_r($val);
-                                    //die;
-                            
-                        ?>
-                                
-
-                    <article class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <div class="press-logo"> <img src="<?php echo $val['press-image']; ?>"></div>
-                    <div class="view view-first">
-                     <h5><?php echo $val['title']; ?></h5>
-                                <img src="<?php echo $val['meta-image']; ?>">
-                                
-                                <div class="mask">
-                                <a href="<?php echo $val['link']; ?>" class="info1">
-                                    <h2><?php echo $val['title']; ?></h2>
-                                <p><?php echo $val['description']; ?></p>
-                                    <!-- <a href="<?php echo $val['link']; ?>" class="info">Read More</a> -->
-                                </a>
-                                </div>
-                            </div>
-                    </article>
-
- <?php
-    // End the loop.
-        }
-    }
-    endwhile;
-    wp_reset_query(); 
-?>
-
-
-
-
-
+            if($i % 2 == 0){
+                echo "</div><div class='row'>";
+            }
+            $i++;
+    ?>
+<article class="col-lg-6 col-md-6 col-sm-6 col-xs-12 view-first" style="float: left;">
+	<div class="view">
+            <a href="<?php echo $link; ?>"><img src="<?php echo $img; ?>"></a>
+        </div>
+<div class="blog-details">
+    <div class="blog-date">Posted by <a href="javascript:void(0)"><?php echo $authorname; ?></a> | <?php echo $postdate;?></div>
+    <div class="blog-title"><a href="<?php echo $link; ?>"><?php the_title(); ?></a></div>
+    <div class="blog-short-description">
+        <?php echo $shortcontent; ?>
+    </div>
+    <div class="separator-line bg-black no-margin-lr"></div>                            
+ </div>			
+</article>
+<?php            
+    endwhile;  
+    wpbeginner_numeric_posts_nav(); 
+    wp_reset_query();
+    ?>
 </div>
 
 
@@ -481,6 +463,7 @@ left-radius:2px;border-bottom-left-radius:2px}.ButtonGroup__root___3lEAn>div+div
 </div>
 </main>
 </div>
+</div>
 
 
 
@@ -498,7 +481,7 @@ left-radius:2px;border-bottom-left-radius:2px}.ButtonGroup__root___3lEAn>div+div
 
 
 
-</section>
+</section>               
                     
                     
                     
@@ -698,31 +681,11 @@ margin: 10px !important;}}
       .blog_main_title {
           margin-top: 20px;
         }
-    .info1 {
-        position: relative;
-        float: left;
-        width: 100%;
-        height: 100%;
-        cursor: pointer;
-        opacity: 1;
-    }
-    .info1 h2,.info1 p {
-        text-decoration: none;
-    }
-@media screen and (max-width: 760px){
+
+        @media screen and (max-width: 760px){
   .logoTop {
         height: 60px !important;
         width: 60px !important;
-    }
-    .view h2 {
-        margin: 4px 0 0 !important;
-    }
-    .info1 {
-      cursor: pointer;
-      height: 100%;
-      opacity: 1;
-      width: 100%;
-      z-index: 999999;
     }
     
 }
